@@ -1,9 +1,9 @@
 #!/bin/bash
-####################################################################
-#			Script para monitorar portas e protocolos              #
-#					Autor: Vinícius Soares Bento				   #
-#						Data:  24/06/2016        				   #
-####################################################################
+###########################################################
+#	Script para monitorar portas e protocolos         #
+#	      Autor: Vinícius Soares Bento	          #
+#		   Data:  24/06/2016        		  #
+###########################################################
 
 LOGNAME=logs.txt
 IP=10.1.1.10
