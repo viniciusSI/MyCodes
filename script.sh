@@ -17,7 +17,7 @@ DATE="$(date +'%d/%m/%y')"
 }
 
 #Armazena o plugin do nagios de teste icmp na variavel 'checkP'
-CHECKP='/usr/lib64/nagios/plugins/check_smtp'
+CHECKP='/usr/lib64/nagios/plugins/check_icmp'
 
 	for ((FALHAS=1;FALHAS<=4;FALHAS++))
             do
