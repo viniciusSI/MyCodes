@@ -13,7 +13,7 @@ DATE="$(date +'%d/%m/%y')"
  notificatelegram(){
  TELEGRAMPROGRAM='/usr/bin/telegram-cli'
          DESTINATARIO='Alerta'
-		$TELEGRAMPROGRAM -WR  -e "msg $DESTINATARIO $IP - is DOWN ($DATE $HOUR) - Verifique a a internet do servidor"> /dev/null 2>&1 || exit 1 &
+		$TELEGRAMPROGRAM -WR  -e "msg $DESTINATARIO $IP - is DOWN ($DATE $HOUR) - Verifique o link de rede do servidor"> /dev/null 2>&1 || exit 1 &
 }
 
 #Armazena o plugin do nagios de teste icmp na variavel 'checkP'
